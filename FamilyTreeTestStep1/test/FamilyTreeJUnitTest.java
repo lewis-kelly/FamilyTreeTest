@@ -40,7 +40,7 @@ public class FamilyTreeJUnitTest {
         }
      
 
-        String actualOutput = testFamilyTree.toString(); // declare actualOutput as null initially to prevent error
+        String actualOutput = testFamilyTree.toString(); 
         String expectedOutput = "james partner mary\n\tjohn\n\nmary partner james\n\tjohn\n";
 
         Assert.assertEquals(expectedOutput, actualOutput);
